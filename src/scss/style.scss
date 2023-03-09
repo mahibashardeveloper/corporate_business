@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap');
+
+@import "utilities/variables";
+
+@import "utilities/font-size";
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sarabun', sans-serif;
+}
+
+body{
+
+  @import "layout/faq";
+
+  @import "layout/provider";
+
+  @import "utilities/image";
+
+  @import "layout/header";
+
+  @import "utilities/border&text_alignment";
+
+  @import "utilities/text&background";
+
+  @import "utilities/height";
+
+  @import "utilities/margin";
+
+  @import "utilities/padding";
+
+  @import "utilities/shadow";
+
+  @import "utilities/width";
+
+  @import "utilities/display";
+
+  @import "utilities/btn";
+
+}

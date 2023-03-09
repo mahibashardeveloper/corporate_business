@@ -1,0 +1,123 @@
+.text-blue-hover{
+  color: $dark;
+  transition: 0.5s ease-in-out;
+
+  &:hover{
+    color:$blue;
+    padding-left: 30px;
+  }
+
+}
+
+.text-link-blue-hover{
+  color:$dark;
+
+  &:hover{
+    color: $blue;
+  }
+
+}
+
+.decoration-none{
+  text-decoration: none;
+}
+
+.blog-link{
+  text-decoration: none;
+  color: $dark;
+
+  &:hover{
+    color: $blue;
+  }
+
+}
+
+.b-r-0{
+  border-radius: 0px;
+}
+
+.b-t-r-1{
+  border-start-start-radius: 5px;
+  border-start-end-radius: 5px;
+}
+
+.b-r-1{
+  border-radius: 5px;
+}
+
+.b-r-2{
+  border-radius: 10px;
+}
+
+.border {
+  border: 1px solid $grey;
+}
+
+.border-bottom{
+  border-bottom: 1px solid $grey;
+}
+
+.bot-left{
+  border-left: 3px solid $blue;
+}
+
+.bot-down{
+  border-bottom: 1px solid $light-grey;
+}
+
+.bot-square{
+  border: 1px solid $light-grey;
+}
+
+.border-none{
+  border: none;
+}
+
+.text-start{
+  text-align: start;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-end{
+  text-align: end;
+}
+
+.form-width{
+  width: 100%;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 1px 0 $grey;
+  margin: 0;
+  padding:10px;
+  border-radius: 15px;
+}
+
+.form-width-square{
+  background-color: $light;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding:10px;
+}
+
+.form-cover{
+  width: 100%;
+  position: relative;
+
+  .form-btn-square{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $blue;
+    color: $white;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding:10px;
+  }
+
+}

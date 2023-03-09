@@ -1,0 +1,55 @@
+.faq-hover{
+  background-color: $light-grey;
+
+  &:hover{
+    background-color: $blue;
+  }
+
+}
+
+.skill-level-1{
+  position: relative;
+
+  .percentage{
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+
+}
+
+.comment-w-12{
+  width: 100%;
+  position: relative;
+
+  .btn-reply{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+  }
+
+}
+
+.comment-w-1{
+  width: 10%;
+}
+
+.comment-w-11{
+  width: 90%;
+}
+
+.reply-btn_control{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  color: $dark;
+  border: 1px solid $light-grey;
+  background-color: $light;
+  text-decoration: none;
+  margin: 5px;
+}

@@ -1,0 +1,62 @@
+.f-404{
+  font-size: 202px;
+}
+
+.fs-1 {
+  font-size: 75px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 25px;
+  }
+
+}
+
+.fs-2 {
+  font-size: 60px;
+}
+
+.fs-3 {
+  font-size: 45px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 35px;
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 25px;
+  }
+
+}
+
+.fs-4 {
+  font-size: 30px;
+}
+
+.fs-5 {
+  font-size: 20px;
+}
+
+.fw-1 {
+  font-weight: 800;
+}
+
+.fw-2 {
+  font-weight: 600;
+}
+
+.fw-3 {
+  font-weight: 400;
+}
+
+.fw-4 {
+  font-weight: 200;
+}
+
+.fw-5 {
+  font-weight: 100;
+}
+

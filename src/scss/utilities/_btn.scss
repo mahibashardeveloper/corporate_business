@@ -1,0 +1,54 @@
+.btn{
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 25px;
+  color: $white;
+  background-color: $blue;
+  text-decoration: none;
+}
+
+.form-btn{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  color: $white;
+  background-color: $blue;
+  text-decoration: none;
+}
+
+.btn-square{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  color: $white;
+  background-color: $blue;
+  border: none;
+}
+
+.pagination-btn{
+  text-decoration: none;
+  color: $dark;
+
+  .page-link{
+    border: none;
+    outline: none;
+    background-color: $light;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: $blue;
+      color: $white;
+    }
+
+  }
+
+}
